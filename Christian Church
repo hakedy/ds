@@ -1,0 +1,603 @@
+
+--Converted with ttyyuu12345's model to script plugin v4
+function sandbox(var,func)
+	local env = getfenv(func)
+	local newenv = setmetatable({},{
+		__index = function(self,k)
+			if k=="script" then
+				return var
+			else
+				return env[k]
+			end
+		end,
+	})
+	setfenv(func,newenv)
+	return func
+end
+cors = {}
+mas = Instance.new("Model",game:GetService("Lighting"))
+WedgePart0 = Instance.new("WedgePart")
+Part1 = Instance.new("Part")
+Dialog2 = Instance.new("Dialog")
+DialogChoice3 = Instance.new("DialogChoice")
+WedgePart4 = Instance.new("WedgePart")
+Part5 = Instance.new("Part")
+Part6 = Instance.new("Part")
+Part7 = Instance.new("Part")
+Part8 = Instance.new("Part")
+Part9 = Instance.new("Part")
+Part10 = Instance.new("Part")
+Part11 = Instance.new("Part")
+Part12 = Instance.new("Part")
+Part13 = Instance.new("Part")
+Part14 = Instance.new("Part")
+Part15 = Instance.new("Part")
+Part16 = Instance.new("Part")
+Part17 = Instance.new("Part")
+Part18 = Instance.new("Part")
+Tool19 = Instance.new("Tool")
+Part20 = Instance.new("Part")
+SpecialMesh21 = Instance.new("SpecialMesh")
+Sound22 = Instance.new("Sound")
+Sound23 = Instance.new("Sound")
+Sound24 = Instance.new("Sound")
+LocalScript25 = Instance.new("LocalScript")
+Script26 = Instance.new("Script")
+Script27 = Instance.new("Script")
+Script28 = Instance.new("Script")
+Part29 = Instance.new("Part")
+WedgePart30 = Instance.new("WedgePart")
+Part31 = Instance.new("Part")
+Part32 = Instance.new("Part")
+Part33 = Instance.new("Part")
+Part34 = Instance.new("Part")
+WedgePart0.Parent = mas
+WedgePart0.CFrame = CFrame.new(-25.0500259, 49.8499985, 51.4618187, 0.00393755874, 0, 0.999992073, 0, 1, 0, -0.999992073, 0, 0.00393755874)
+WedgePart0.Orientation = Vector3.new(0, 89.7699966, 0)
+WedgePart0.Position = Vector3.new(-25.0500259, 49.8499985, 51.4618187)
+WedgePart0.Rotation = Vector3.new(0, 89.7699966, 0)
+WedgePart0.Size = Vector3.new(26.8999996, 15.5, 49.7000008)
+WedgePart0.Anchored = true
+WedgePart0.BottomSurface = Enum.SurfaceType.Smooth
+WedgePart0.Material = Enum.Material.Brick
+Part1.Parent = mas
+Part1.CFrame = CFrame.new(19.7000008, 17.1000462, 53.1999969, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part1.Position = Vector3.new(19.7000008, 17.1000462, 53.1999969)
+Part1.Color = Color3.new(1, 1, 0)
+Part1.Size = Vector3.new(2.19999981, 2.19999981, 2.19999981)
+Part1.Anchored = true
+Part1.BottomSurface = Enum.SurfaceType.Smooth
+Part1.BrickColor = BrickColor.new("New Yeller")
+Part1.TopSurface = Enum.SurfaceType.Smooth
+Part1.brickColor = BrickColor.new("New Yeller")
+Part1.Shape = Enum.PartType.Ball
+Dialog2.Parent = Part1
+Dialog2.GoodbyeChoiceActive = false
+Dialog2.InUse = true
+Dialog2.InitialPrompt = "Wassup, little fucker?"
+Dialog2.Tone = Enum.DialogTone.Enemy
+DialogChoice3.Parent = Dialog2
+DialogChoice3.GoodbyeChoiceActive = false
+DialogChoice3.GoodbyeDialog = "Yeah that's right, go eat ass!"
+DialogChoice3.ResponseDialog = "Fuck you too, beaner."
+DialogChoice3.UserDialog = "fuck u dumbass"
+WedgePart4.Parent = mas
+WedgePart4.CFrame = CFrame.new(4.70001221, 4.05000019, 21.9499931, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+WedgePart4.Position = Vector3.new(4.70001221, 4.05000019, 21.9499931)
+WedgePart4.Size = Vector3.new(73.4000015, 8.10000038, 25.1000004)
+WedgePart4.Anchored = true
+WedgePart4.BottomSurface = Enum.SurfaceType.Smooth
+WedgePart4.Material = Enum.Material.Brick
+Part5.Parent = mas
+Part5.CFrame = CFrame.new(4.29999733, 4, 50.8500023, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part5.Position = Vector3.new(4.29999733, 4, 50.8500023)
+Part5.Color = Color3.new(0.623529, 0.631373, 0.67451)
+Part5.Size = Vector3.new(101, 8, 33.0999985)
+Part5.Anchored = true
+Part5.BottomSurface = Enum.SurfaceType.Smooth
+Part5.BrickColor = BrickColor.new("Fossil")
+Part5.Material = Enum.Material.Brick
+Part5.TopSurface = Enum.SurfaceType.Smooth
+Part5.brickColor = BrickColor.new("Fossil")
+Part6.Parent = mas
+Part6.CFrame = CFrame.new(31.0999985, 25.3000145, 38.7999992, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part6.Position = Vector3.new(31.0999985, 25.3000145, 38.7999992)
+Part6.Size = Vector3.new(2.79999995, 34.6000023, 2)
+Part6.Anchored = true
+Part6.BottomSurface = Enum.SurfaceType.Smooth
+Part6.Material = Enum.Material.Brick
+Part6.TopSurface = Enum.SurfaceType.Smooth
+Part7.Parent = mas
+Part7.CFrame = CFrame.new(21.7999992, 25.3000145, 38.7999992, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part7.Position = Vector3.new(21.7999992, 25.3000145, 38.7999992)
+Part7.Size = Vector3.new(2.79999995, 34.6000023, 2)
+Part7.Anchored = true
+Part7.BottomSurface = Enum.SurfaceType.Smooth
+Part7.Material = Enum.Material.Brick
+Part7.TopSurface = Enum.SurfaceType.Smooth
+Part8.Parent = mas
+Part8.CFrame = CFrame.new(11.1999989, 25.3000145, 38.7999992, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part8.Position = Vector3.new(11.1999989, 25.3000145, 38.7999992)
+Part8.Size = Vector3.new(2.79999995, 34.6000023, 2)
+Part8.Anchored = true
+Part8.BottomSurface = Enum.SurfaceType.Smooth
+Part8.Material = Enum.Material.Brick
+Part8.TopSurface = Enum.SurfaceType.Smooth
+Part9.Parent = mas
+Part9.CFrame = CFrame.new(0.499999046, 25.3000145, 38.7999992, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part9.Position = Vector3.new(0.499999046, 25.3000145, 38.7999992)
+Part9.Size = Vector3.new(2.79999995, 34.6000023, 2)
+Part9.Anchored = true
+Part9.BottomSurface = Enum.SurfaceType.Smooth
+Part9.Material = Enum.Material.Brick
+Part9.TopSurface = Enum.SurfaceType.Smooth
+Part10.Parent = mas
+Part10.CFrame = CFrame.new(-11.3000011, 25.3000145, 38.7999992, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part10.Position = Vector3.new(-11.3000011, 25.3000145, 38.7999992)
+Part10.Size = Vector3.new(2.79999995, 34.6000023, 2)
+Part10.Anchored = true
+Part10.BottomSurface = Enum.SurfaceType.Smooth
+Part10.Material = Enum.Material.Brick
+Part10.TopSurface = Enum.SurfaceType.Smooth
+Part11.Parent = mas
+Part11.CFrame = CFrame.new(-23.7000008, 25.3000145, 38.7999992, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part11.Position = Vector3.new(-23.7000008, 25.3000145, 38.7999992)
+Part11.Size = Vector3.new(2.79999995, 34.6000023, 2)
+Part11.Anchored = true
+Part11.BottomSurface = Enum.SurfaceType.Smooth
+Part11.Material = Enum.Material.Brick
+Part11.TopSurface = Enum.SurfaceType.Smooth
+Part12.Parent = mas
+Part12.CFrame = CFrame.new(-33.6000023, 25.3000145, 38.7999992, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part12.Position = Vector3.new(-33.6000023, 25.3000145, 38.7999992)
+Part12.Size = Vector3.new(2.79999995, 34.6000023, 2)
+Part12.Anchored = true
+Part12.BottomSurface = Enum.SurfaceType.Smooth
+Part12.Material = Enum.Material.Brick
+Part12.TopSurface = Enum.SurfaceType.Smooth
+Part13.Parent = mas
+Part13.CFrame = CFrame.new(-42.8000031, 25.3000145, 38.7999992, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part13.Position = Vector3.new(-42.8000031, 25.3000145, 38.7999992)
+Part13.Size = Vector3.new(2.79999995, 34.6000023, 2)
+Part13.Anchored = true
+Part13.BottomSurface = Enum.SurfaceType.Smooth
+Part13.Material = Enum.Material.Brick
+Part13.TopSurface = Enum.SurfaceType.Smooth
+Part14.Parent = mas
+Part14.CFrame = CFrame.new(45.2999954, 25.3000145, 38.7999992, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part14.Position = Vector3.new(45.2999954, 25.3000145, 38.7999992)
+Part14.Size = Vector3.new(2.79999995, 34.6000023, 2)
+Part14.Anchored = true
+Part14.BottomSurface = Enum.SurfaceType.Smooth
+Part14.Material = Enum.Material.Brick
+Part14.TopSurface = Enum.SurfaceType.Smooth
+Part15.Parent = mas
+Part15.CFrame = CFrame.new(2.59999275, 8.5, 52.9000015, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part15.Position = Vector3.new(2.59999275, 8.5, 52.9000015)
+Part15.Size = Vector3.new(4, 1, 5)
+Part15.Anchored = true
+Part15.BottomSurface = Enum.SurfaceType.Smooth
+Part15.Material = Enum.Material.Brick
+Part15.TopSurface = Enum.SurfaceType.Smooth
+Part16.Parent = mas
+Part16.CFrame = CFrame.new(-7.62939453e-06, 9.44999981, 52.9000015, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part16.Position = Vector3.new(-7.62939453e-06, 9.44999981, 52.9000015)
+Part16.Size = Vector3.new(1.20000005, 2.9000001, 5)
+Part16.Anchored = true
+Part16.BottomSurface = Enum.SurfaceType.Smooth
+Part16.Material = Enum.Material.Brick
+Part16.TopSurface = Enum.SurfaceType.Smooth
+Part17.Parent = mas
+Part17.CFrame = CFrame.new(5.29999352, 9.44999981, 52.9000015, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part17.Position = Vector3.new(5.29999352, 9.44999981, 52.9000015)
+Part17.Size = Vector3.new(1.20000005, 2.9000001, 5)
+Part17.Anchored = true
+Part17.BottomSurface = Enum.SurfaceType.Smooth
+Part17.Material = Enum.Material.Brick
+Part17.TopSurface = Enum.SurfaceType.Smooth
+Part18.Parent = mas
+Part18.CFrame = CFrame.new(2.69999313, 11.1999998, 55.9000015, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part18.Position = Vector3.new(2.69999313, 11.1999998, 55.9000015)
+Part18.Size = Vector3.new(6.19999981, 6.4000001, 0.999999881)
+Part18.Anchored = true
+Part18.BottomSurface = Enum.SurfaceType.Smooth
+Part18.Material = Enum.Material.Brick
+Part18.TopSurface = Enum.SurfaceType.Smooth
+Tool19.Name = "back"
+Tool19.Parent = mas
+Tool19.TextureId = "rbxassetid://1395410065"
+Tool19.Grip = CFrame.new(0, 0, 0.100000001, 0.979804039, 0, 0.199960038, 0, 1, -0, -0.199960008, 0, 0.979804158)
+Tool19.GripForward = Vector3.new(-0.199960038, 0, -0.979804158)
+Tool19.GripPos = Vector3.new(0, 0, 0.100000001)
+Tool19.GripRight = Vector3.new(0.979804039, 0, -0.199960008)
+Tool19.ToolTip = "Local Police Department's Negro Destroyer"
+Part20.Name = "Handle"
+Part20.Parent = Tool19
+Part20.CFrame = CFrame.new(2.657444, 12.1500006, 52.2540932, 0.998777568, 0.0494310819, 0, -0.0494310819, 0.998777568, 0, 0, 0, 1)
+Part20.Orientation = Vector3.new(0, 0, -2.82999992)
+Part20.Position = Vector3.new(2.657444, 12.1500006, 52.2540932)
+Part20.Rotation = Vector3.new(0, 0, -2.82999992)
+Part20.Size = Vector3.new(2.09999967, 14.5, 2.60000014)
+Part20.BottomSurface = Enum.SurfaceType.Smooth
+Part20.TopSurface = Enum.SurfaceType.Smooth
+SpecialMesh21.Parent = Part20
+SpecialMesh21.MeshId = "rbxasset://fonts/hammer.mesh"
+SpecialMesh21.Scale = Vector3.new(2.61663604, 1.34401488, 2.60000038)
+SpecialMesh21.TextureId = "rbxasset://textures/hammertex128.png"
+SpecialMesh21.MeshType = Enum.MeshType.FileMesh
+Sound22.Name = "SwordLunge"
+Sound22.Parent = Part20
+Sound22.SoundId = "http://www.roblox.com/asset/?id=12221984"
+Sound22.Volume = 10
+Sound23.Name = "SwordSlash"
+Sound23.Parent = Part20
+Sound23.SoundId = "http://www.roblox.com/asset/?id=4485587955"
+Sound23.Volume = 0
+Sound24.Name = "Unsheath"
+Sound24.Parent = Part20
+Sound24.Looped = true
+Sound24.SoundId = "http://www.roblox.com/asset/?id=4485587955"
+Sound24.Volume = 10
+LocalScript25.Name = "MouseIcon"
+LocalScript25.Parent = Tool19
+table.insert(cors,sandbox(LocalScript25,function()
+--Made by Luckymaxer
+
+Mouse_Icon = "rbxasset://textures/GunCursor.png"
+Reloading_Icon = "rbxasset://textures/GunWaitCursor.png"
+
+Tool = script.Parent
+
+Mouse = nil
+
+function UpdateIcon()
+	if Mouse then
+		Mouse.Icon = Tool.Enabled and Mouse_Icon or Reloading_Icon
+	end
+end
+
+function OnEquipped(ToolMouse)
+	Mouse = ToolMouse
+	UpdateIcon()
+end
+
+function OnChanged(Property)
+	if Property == "Enabled" then
+		UpdateIcon()
+	end
+end
+
+Tool.Equipped:Connect(OnEquipped)
+Tool.Changed:Connect(OnChanged)
+
+end))
+Script26.Name = "SwordScript"
+Script26.Parent = Tool19
+table.insert(cors,sandbox(Script26,function()
+--Rescripted by Luckymaxer
+--EUROCOW WAS HERE BECAUSE I MADE THE PARTICLES AND THEREFORE THIS ENTIRE SWORD PRETTY AND LOOK PRETTY WORDS AND I'D LIKE TO DEDICATE THIS TO MY FRIENDS AND HI LUCKYMAXER PLS FIX SFOTH SWORDS TY LOVE Y'ALl
+--Updated for R15 avatars by StarWars
+--Re-updated by TakeoHonorable
+
+Tool = script.Parent
+Handle = Tool:WaitForChild("Handle")
+
+function Create(ty)
+	return function(data)
+		local obj = Instance.new(ty)
+		for k, v in pairs(data) do
+			if type(k) == 'number' then
+				v.Parent = obj
+			else
+				obj[k] = v
+			end
+		end
+		return obj
+	end
+end
+
+local BaseUrl = "rbxassetid://"
+
+Players = game:GetService("Players")
+Debris = game:GetService("Debris")
+RunService = game:GetService("RunService")
+
+DamageValues = {
+	BaseDamage = 25,
+	SlashDamage = 99999999999,
+	LungeDamage = 99999999999
+}
+
+--For R15 avatars
+Animations = {
+	R15Slash = 522635514,
+	R15Lunge = 522638767
+}
+
+Damage = DamageValues.BaseDamage
+
+Grips = {
+	Up = CFrame.new(0, 0, -1.70000005, 0, 0, 1, 1, 0, 0, 0, 1, 0),
+	Out = CFrame.new(0, 0, -1.70000005, 0, 1, 0, 1, -0, 0, 0, 0, -1)
+}
+
+Sounds = {
+	Slash = Handle:WaitForChild("SwordSlash"),
+	Lunge = Handle:WaitForChild("SwordLunge"),
+	Unsheath = Handle:WaitForChild("Unsheath")
+}
+
+ToolEquipped = false
+
+--For Omega Rainbow Katana thumbnail to display a lot of particles.
+for i, v in pairs(Handle:GetChildren()) do
+	if v:IsA("ParticleEmitter") then
+		v.Rate = 20
+	end
+end
+
+Tool.Grip = Grips.Up
+Tool.Enabled = true
+
+function IsTeamMate(Player1, Player2)
+	return (Player1 and Player2 and not Player1.Neutral and not Player2.Neutral and Player1.TeamColor == Player2.TeamColor)
+end
+
+function TagHumanoid(humanoid, player)
+	local Creator_Tag = Instance.new("ObjectValue")
+	Creator_Tag.Name = "creator"
+	Creator_Tag.Value = player
+	Debris:AddItem(Creator_Tag, 2)
+	Creator_Tag.Parent = humanoid
+end
+
+function UntagHumanoid(humanoid)
+	for i, v in pairs(humanoid:GetChildren()) do
+		if v:IsA("ObjectValue") and v.Name == "creator" then
+			v:Destroy()
+		end
+	end
+end
+
+function Blow(Hit)
+	if not Hit or not Hit.Parent or not CheckIfAlive() or not ToolEquipped then
+		return
+	end
+	local RightArm = Character:FindFirstChild("Right Arm") or Character:FindFirstChild("RightHand")
+	if not RightArm then
+		return
+	end
+	local RightGrip = RightArm:FindFirstChild("RightGrip")
+	if not RightGrip or (RightGrip.Part0 ~= Handle and RightGrip.Part1 ~= Handle) then
+		return
+	end
+	local character = Hit.Parent
+	if character == Character then
+		return
+	end
+	local humanoid = character:FindFirstChildOfClass("Humanoid")
+	if not humanoid or humanoid.Health == 0 then
+		return
+	end
+	local player = Players:GetPlayerFromCharacter(character)
+	if player and (player == Player or IsTeamMate(Player, player)) then
+		return
+	end
+	UntagHumanoid(humanoid)
+	TagHumanoid(humanoid, Player)
+	humanoid:TakeDamage(Damage)	
+end
+
+
+function Attack()
+	Damage = DamageValues.SlashDamage
+	Sounds.Slash:Play()
+
+	if Humanoid then
+		if Humanoid.RigType == Enum.HumanoidRigType.R6 then
+			local Anim = Instance.new("StringValue")
+			Anim.Name = "toolanim"
+			Anim.Value = "Slash"
+			Anim.Parent = Tool
+		elseif Humanoid.RigType == Enum.HumanoidRigType.R15 then
+			local Anim = Tool:FindFirstChild("R15Slash")
+			if Anim then
+				local Track = Humanoid:LoadAnimation(Anim)
+				Track:Play(0)
+			end
+		end
+	end	
+end
+
+function Lunge()
+	Damage = DamageValues.LungeDamage
+
+	Sounds.Lunge:Play()
+	
+	if Humanoid then
+		if Humanoid.RigType == Enum.HumanoidRigType.R6 then
+			local Anim = Instance.new("StringValue")
+			Anim.Name = "toolanim"
+			Anim.Value = "Lunge"
+			Anim.Parent = Tool
+		elseif Humanoid.RigType == Enum.HumanoidRigType.R15 then
+			local Anim = Tool:FindFirstChild("R15Lunge")
+			if Anim then
+				local Track = Humanoid:LoadAnimation(Anim)
+				Track:Play(0)
+			end
+		end
+	end	
+	--[[
+	if CheckIfAlive() then
+		local Force = Instance.new("BodyVelocity")
+		Force.velocity = Vector3.new(0, 10, 0) 
+		Force.maxForce = Vector3.new(0, 4000, 0)
+		Debris:AddItem(Force, 0.4)
+		Force.Parent = Torso
+	end
+	]]
+	
+	wait(0.2)
+	Tool.Grip = Grips.Out
+	wait(0.6)
+	Tool.Grip = Grips.Up
+
+	Damage = DamageValues.SlashDamage
+end
+
+Tool.Enabled = true
+LastAttack = 0
+
+function Activated()
+	if not Tool.Enabled or not ToolEquipped or not CheckIfAlive() then
+		return
+	end
+	Tool.Enabled = false
+	local Tick = RunService.Stepped:wait()
+	if (Tick - LastAttack < 0.2) then
+		Lunge()
+	else
+		Attack()
+	end
+	LastAttack = Tick
+	--wait(0.5)
+	Damage = DamageValues.BaseDamage
+	local SlashAnim = (Tool:FindFirstChild("R15Slash") or Create("Animation"){
+		Name = "R15Slash",
+		AnimationId = BaseUrl .. Animations.R15Slash,
+		Parent = Tool
+	})
+	
+	local LungeAnim = (Tool:FindFirstChild("R15Lunge") or Create("Animation"){
+		Name = "R15Lunge",
+		AnimationId = BaseUrl .. Animations.R15Lunge,
+		Parent = Tool
+	})
+	Tool.Enabled = true
+end
+
+function CheckIfAlive()
+	return (((Player and Player.Parent and Character and Character.Parent and Humanoid and Humanoid.Parent and Humanoid.Health > 0 and Torso and Torso.Parent) and true) or false)
+end
+
+function Equipped()
+	Character = Tool.Parent
+	Player = Players:GetPlayerFromCharacter(Character)
+	Humanoid = Character:FindFirstChildOfClass("Humanoid")
+	Torso = Character:FindFirstChild("Torso") or Character:FindFirstChild("HumanoidRootPart")
+	if not CheckIfAlive() then
+		return
+	end
+	ToolEquipped = true
+	Sounds.Unsheath:Play()
+end
+
+function Unequipped()
+	Tool.Grip = Grips.Up
+	ToolEquipped = false
+end
+
+Tool.Activated:Connect(Activated)
+Tool.Equipped:Connect(Equipped)
+Tool.Unequipped:Connect(Unequipped)
+
+Connection = Handle.Touched:Connect(Blow)
+end))
+Script27.Name = "Poop"
+Script27.Parent = Tool19
+table.insert(cors,sandbox(Script27,function()
+local me = script.Parent.Parent.Parent.Character
+me.Humanoid.MaxHealth = 99999999999
+me.Humanoid.Health = 99999999999
+me.Humanoid.WalkSpeed = 30
+me.Humanoid.HealthDisplayDistance = 99999999
+me.Humanoid.DisplayName = "Allahu Ackbar v420"
+
+
+		local s = Instance.new("Sky",game.Lighting)
+		s.SkyboxBk,s.SkyboxDn,s.SkyboxFt,s.SkyboxLf,s.SkyboxRt,s.SkyboxUp = "rbxassetid://6377438834","rbxassetid://6377438834","rbxassetid://6377438834","rbxassetid://6377438834","rbxassetid://6377438834","rbxassetid://6377438834"
+		s.CelestialBodiesShown = false
+
+wait(0.001)
+if game.Workspace.back.Parent.Name("Workspace") then
+	game.Workspace.back.Handle.Position = me.Torso.Position
+end
+end))
+Script28.Name = "background changer"
+Script28.Parent = Tool19
+table.insert(cors,sandbox(Script28,function()
+while true do
+wait(0.000000001)
+	local s = Instance.new("Sky",game.Lighting)
+	s.SkyboxBk,s.SkyboxDn,s.SkyboxFt,s.SkyboxLf,s.SkyboxRt,s.SkyboxUp = "rbxassetid://6377438834","rbxassetid://6377438834","rbxassetid://6377438834","rbxassetid://6377438834","rbxassetid://6377438834","rbxassetid://6377438834"
+	s.CelestialBodiesShown = false
+end
+end))
+Part29.Parent = mas
+Part29.CFrame = CFrame.new(3.8999939, 25.0499992, 63.9000015, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part29.Position = Vector3.new(3.8999939, 25.0499992, 63.9000015)
+Part29.Size = Vector3.new(94.5999985, 34.0999985, 2)
+Part29.Anchored = true
+Part29.BottomSurface = Enum.SurfaceType.Smooth
+Part29.Material = Enum.Material.Brick
+Part29.TopSurface = Enum.SurfaceType.Smooth
+WedgePart30.Parent = mas
+WedgePart30.CFrame = CFrame.new(27.5499973, 49.8499985, 51.4500008, 0, 0, -0.99999994, 0, 1, 0, 0.99999994, 0, 0)
+WedgePart30.Orientation = Vector3.new(0, -90, 0)
+WedgePart30.Position = Vector3.new(27.5499973, 49.8499985, 51.4500008)
+WedgePart30.Rotation = Vector3.new(0, -89.9800034, 0)
+WedgePart30.Size = Vector3.new(26.8999996, 15.5, 55.7000008)
+WedgePart30.Anchored = true
+WedgePart30.BottomSurface = Enum.SurfaceType.Smooth
+WedgePart30.Material = Enum.Material.Brick
+Part31.Parent = mas
+Part31.CFrame = CFrame.new(17.2999992, 14.0000143, 53.3999977, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part31.Position = Vector3.new(17.2999992, 14.0000143, 53.3999977)
+Part31.Color = Color3.new(1, 1, 0)
+Part31.Size = Vector3.new(1.39999998, 4, 1.39999998)
+Part31.Anchored = true
+Part31.BottomSurface = Enum.SurfaceType.Smooth
+Part31.BrickColor = BrickColor.new("New Yeller")
+Part31.TopSurface = Enum.SurfaceType.Smooth
+Part31.brickColor = BrickColor.new("New Yeller")
+Part32.Parent = mas
+Part32.CFrame = CFrame.new(22.0999985, 14.0000143, 53.3999977, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part32.Position = Vector3.new(22.0999985, 14.0000143, 53.3999977)
+Part32.Color = Color3.new(1, 1, 0)
+Part32.Size = Vector3.new(1.39999998, 4, 1.39999998)
+Part32.Anchored = true
+Part32.BottomSurface = Enum.SurfaceType.Smooth
+Part32.BrickColor = BrickColor.new("New Yeller")
+Part32.TopSurface = Enum.SurfaceType.Smooth
+Part32.brickColor = BrickColor.new("New Yeller")
+Part33.Parent = mas
+Part33.CFrame = CFrame.new(19.6999989, 14.0000143, 53.3999977, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part33.Position = Vector3.new(19.6999989, 14.0000143, 53.3999977)
+Part33.Color = Color3.new(0.0627451, 0.164706, 0.862745)
+Part33.Size = Vector3.new(3.4000001, 4, 1.39999998)
+Part33.Anchored = true
+Part33.BottomSurface = Enum.SurfaceType.Smooth
+Part33.BrickColor = BrickColor.new("Lapis")
+Part33.TopSurface = Enum.SurfaceType.Smooth
+Part33.brickColor = BrickColor.new("Lapis")
+Part34.Parent = mas
+Part34.CFrame = CFrame.new(19.6999989, 10.1000137, 53.3999977, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+Part34.Position = Vector3.new(19.6999989, 10.1000137, 53.3999977)
+Part34.Color = Color3.new(0.172549, 0.396078, 0.113725)
+Part34.Size = Vector3.new(3.4000001, 4, 1.39999998)
+Part34.Anchored = true
+Part34.BottomSurface = Enum.SurfaceType.Smooth
+Part34.BrickColor = BrickColor.new("Parsley green")
+Part34.TopSurface = Enum.SurfaceType.Smooth
+Part34.brickColor = BrickColor.new("Parsley green")
+for i,v in pairs(mas:GetChildren()) do
+	v.Parent = workspace
+	pcall(function() v:MakeJoints() end)
+end
+mas:Destroy()
+for i,v in pairs(cors) do
+	spawn(function()
+		pcall(v)
+	end)
+end

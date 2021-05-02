@@ -1,0 +1,89 @@
+--[[ Made by hakedy ]]--
+local pingumus = Instance.new("Sound",workspace) 
+
+pingumus.Playing = true
+pingumus.Looped = true
+pingumus.SoundId = "rbxassetid://281136047"
+pingumus.Volume = "3"
+
+local pingumusoverlap = Instance.new("Sound",workspace)
+
+wait(0.1)
+pingumusoverlap.Playing = true
+pingumusoverlap.Looped = true
+pingumusoverlap.SoundId = "rbxassetid://281136047"
+pingumusoverlap.Volume = "3"
+
+local pingumusoverlapp = Instance.new("Sound",workspace)
+
+wait(0.1)
+pingumusoverlapp.Playing = true
+pingumusoverlapp.Looped = true
+pingumusoverlapp.SoundId = "rbxassetid://281136047"
+pingumusoverlapp.Volume = "3"
+
+wait(12)
+
+
+pingumus.Volume = "10"
+pingumusoverlap.Volume = "10"
+pingumusoverlapp.Volume = "10"
+poopimage = "rbxassetid://382332426"
+
+for i,v in pairs(workspace:GetChildren()) do
+	if v:IsA("Model") then
+		for i,a in pairs(v:GetChildren()) do
+			local top = Instance.new("Decal",a)
+			top.Face = "Top"
+			top.Texture = poopimage
+			local btm = Instance.new("Decal",a)
+			btm.Face = "Bottom"
+			btm.Texture = poopimage
+			local lft = Instance.new("Decal",a)
+			lft.Face = "Left"
+			lft.Texture = poopimage
+			local rft = Instance.new("Decal",a)
+			rft.Face = "Right"
+			rft.Texture = poopimage
+			local frnt = Instance.new("Decal",a)
+			frnt.Face = "Front"
+			frnt.Texture = poopimage
+			local bk = Instance.new("Decal",a)
+			bk.Face = "Back"
+			bk.Texture = poopimage
+		end
+	end
+end
+
+local poopsky = Instance.new("Sky",game.Lighting)
+
+poopsky.SkyboxBk = poopimage
+poopsky.SkyboxDn = poopimage
+poopsky.SkyboxFt = poopimage
+poopsky.SkyboxLf = poopimage
+poopsky.SkyboxRt = poopimage
+poopsky.SkyboxUp = poopimage
+
+local nootmsg = Instance.new("Message",workspace)
+nootmsg.Text = "GET NOOT NOOTEDDDDDDDDD"
+
+for i,a in pairs(workspace:GetDescendants()) do
+	local partemit = Instance.new("ParticleEmitter",workspace)
+
+	partemit.Parent = a
+	partemit.Speed = NumberRange.new(200)
+	partemit.Texture = poopimage
+	partemit.Rate = 200
+	partemit.Size = NumberSequence.new(100)
+	partemit.Lifetime = NumberRange.new(1000)
+end
+
+while wait() do
+	for i,a in pairs(workspace:GetDescendants()) do
+		if a.Name ~= "Head" or "Torso" or "Left Arm" or "Right Arm" or "Left Leg" or "Right Leg" then
+			local Explosion = Instance.new("Explosion",a)
+			Explosion.BlastRadius = 10000
+		end
+	end
+end
+
